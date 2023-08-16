@@ -1,7 +1,7 @@
 # Intro-to-Systems-Programming-and-C++
 
 ## Prerequisite for the following projects
-- C++ Compiler (supporting C++11)
+- C++ Compiler (supporting C++14)
 - Boost C++ Libraries (for string splitting)
 
 ## Project #1: [Grade Calculator](https://github.com/YoAx22/Intro-to-Systems-Programming-and-C/tree/main/GradeCalculator)
@@ -29,16 +29,30 @@ Run the program with three command-line arguments: input file with student data,
 -     ./grade_calculator sample_grades.txt output.txt weights.txt
 
 
-## Project #2: []()
+## Project #2: [Bank Account Management](https://github.com/YoAx22/Intro-to-Systems-Programming-and-C/tree/main/BankAccount)
+This C++ program manages bank accounts, allowing users to perform operations like depositing and withdrawing money, updating the address, and retrieving the current balance.
+
+### Properties
+The properties of a bank account are:
+
+- owner: The owner of the bank account.
+- balance: The current balance of the bank account.
+- address: The address associated with the bank account.
 
 ### Methods
+- depositMoney(double money)
+    - Deposits a specified amount of money into the account.
+- withdrawMoney(double money)
+    - Withdraws a specified amount of money from the account.
+- getBalance(double money)
+    - Retrieves the current balance of the account.
+- updateAddress(string address)
+    - Updates the address associated with the account.
+- getAddress(const std::string& address)
+    - Retrieves the address associated with the account.
 
-
-## Project #3: []()
-
-### Methods
-
-
-## Project #4: []()
-
-### Methods
+### Usage
+Compile the program using a C++ compiler
+-     g++ -std=c++14 BankAccount.cpp testBank.cpp -o BankTest
+Run the compiled executable
+-     ./BankTest testBank.cpp
