@@ -1,4 +1,4 @@
-# Intro-to-Systems-Programming-and-C++
+# Intro to C++ Programming
 
 ## Prerequisite for the following projects
 - C++ Compiler (supporting C++14)
